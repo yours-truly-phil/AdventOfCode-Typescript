@@ -1,6 +1,10 @@
 import fs from 'fs'
 import assert from 'assert';
 
+/*
+https://adventofcode.com/2020/day/1
+ */
+
 const binarySearch = <T>(arr: T[], findMe: T, comparator: (v1: T, v2: T) => number): number => {
     let low = 0;
     let high = arr.length;

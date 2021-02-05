@@ -1,6 +1,10 @@
 import fs from 'fs'
 import assert from 'assert';
 
+/*
+https://adventofcode.com/2020/day/2
+ */
+
 class PasswordLine {
     lower: number
     upper: number
